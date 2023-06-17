@@ -1,7 +1,5 @@
-import re
 import csv
 from pprint import pprint
-from collections import defaultdict
 
 with open("phonebook_raw.csv") as f:
     rows = csv.reader(f, delimiter=",")
